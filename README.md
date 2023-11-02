@@ -7,16 +7,18 @@ Hay que entender los principios de la arquitectura limpia implemnetado a flutter
 
 ### Capa de dominio 
 
-Las capas de dominio es donde guardamos los json de respuesta que nos regresan el back end podemos guardar las capas de lo que queremos hacer, tambien se guardas los casos de uso que tienen como dependencia la puerta de enlace que hace con las petiiciciones esto permite flexibilidad en cuanto a los cambios del front ya que no habria que cambiar mucho.
+Las capas de dominio es donde guardamos las url que nos regresan el back end podemos guardar las capas de lo que queremos hacer, tambien se guardas los casos de uso que tienen como dependencia la puerta de enlace que hace con las petiiciciones esto permite flexibilidad en cuanto a los cambios del front ya que no habria que cambiar mucho.
 
 ### Capa de insfraestructura
 
-Las infreacturas es donde se guardar las conexiones con repositorios y APIS esta seccion se guarda en una carpeta de driver_adapter donde guardaremos todas las conexiones como por eljemplo firebase y tambien debemos incluir las carpetar de helpers en la sub carpeta de common donde hacemos a coversion de json a una etindad, tambien en el album guardamos el album_mapper donde haremos la conversion de JOSN a una clase, tambien se creara un una carpetta de driver adapater donde gestionamnos la conexion con las distintanta APIS 
+Las infreacturas es donde se guardar las conexiones con repositorios y APIS esta seccion se guarda en una carpeta de driver_adapter donde guardaremos todas las conexiones como por eljemplo firebase y tambien debemos incluir las carpetar de helpers en la sub carpeta de common donde hacemos a coversion de json a una etindad, tambien en el album guardamos el album_mapper donde haremos la conversion de JOSN a una clase, tambien se creara un una carpetta de driver adapater donde gestionamnos la conexion con las distintanta APIS las capas de uso son donde recoletamos los dominios y hacemos toda la conversion   
 
 ### Capa de UI
 
-La arquitectura limpia no dice como esta estructurado tu proyecto, casi siempre se le suele implementar todo el tema de la arquictetura limpia en el proyecto 
+La arquitectura limpia no dice como esta estructurado tu proyecto, casi siempre se le suele implementar todo el tema diseño molecular en el proyecto que esto parte desde la unidad mas paqueña a la mas grande
 
 ### Capa de configuracion 
 
-la capa de configuracion no debe estar ligado fuertemenete a las otras capas esto ayuda con la inyeccion de dependencias 
+la capa de configuracion no debe estar ligado fuertemenete a las otras capas esto ayuda con la inyeccion de dependencias, esto se puede entender que tenemos una API hacemos toda la configuracion de conexion en una carpeta aparte donde guardamos los casos de uso  
+
+### Notas 
